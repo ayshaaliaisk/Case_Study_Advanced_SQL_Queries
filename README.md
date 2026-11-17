@@ -1,6 +1,8 @@
 # Case_Study_Advanced_SQL_Queries
 SQL exercises and projects from Dibimbing Data Engineering Bootcamp
 
+by : Aysha Alia Iskandar
+
 ## Soal 1 : The Report 
 a. Link soal: 
 https://www.hackerrank.com/challenges/the-report/problem?isFullScreen=tru 
