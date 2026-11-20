@@ -26,6 +26,12 @@ ii. Di select final, gunakan CASE untuk menampilkan NULL pada name jika grade < 
 
 iii. Terapkan urutan seperti ketentuan. 
 
+#### SCREENSHOT JAWABAN
+<img width="1240" height="580" alt="image" src="https://github.com/user-attachments/assets/de01b20f-b094-42ba-997c-163c2104626b" />
+<img width="1240" height="580" alt="image" src="https://github.com/user-attachments/assets/c34b8022-94f7-48a5-bfe9-fcd9421689a7" />
+
+
+
 ## Soal 2 : Weather Observation Station 18 
 a. Link soal: 
 https://www.hackerrank.com/challenges/weather-observation-station-18/problem?isFullScreen=true 
@@ -50,6 +56,11 @@ d. Langkah disarankan:
 i. Satu CTE untuk menghimpun empat nilai agregat. 
 
 ii. Baris final menghitung jarak Manhattan dan CAST(... AS DECIMAL(10,4)).
+
+#### SCREENSHOT JAWABAN
+<img width="1240" height="580" alt="image" src="https://github.com/user-attachments/assets/9ca471e9-4162-4f42-870a-4a45063cec0f" />
+<img width="1240" height="580" alt="image" src="https://github.com/user-attachments/assets/dd0bfe8d-b9e6-445d-9e2f-b073bad657ea" />
+
 
 ## Soal 3 : Top Competitors 
 a. Link soal: 
@@ -78,6 +89,11 @@ iii. CTE-3: join ke Hackers untuk ambil name.
 
 iv. Select final: hanya hacker_id, name lalu ORDER BY. 
 
+#### SCREENSHOT JAWABAN
+<img width="1240" height="580" alt="image" src="https://github.com/user-attachments/assets/18f81f04-5474-4e7e-b492-228569740a15" />
+<img width="1240" height="580" alt="image" src="https://github.com/user-attachments/assets/9849cd5c-814f-4657-8bbd-edfb2b77d608" />
+
+
 ## Soal 4 : Ollivander's Inventory 
 a. Link soal: 
 https://www.hackerrank.com/challenges/harry-potter-and-wands/problem?isFullScreen=true 
@@ -102,6 +118,11 @@ d. Langkah disarankan:
 i. CTE: hasil join dan kolom coins_min via window MIN() OVER (PARTITION BY age, power). 
 
 ii. Select final: filter coins_needed = coins_min dan urutkan sesuai ketentuan. 
+
+#### SCREENSHOT JAWABAN
+<img width="1240" height="580" alt="image" src="https://github.com/user-attachments/assets/2b13d8f8-eca3-4d9c-a8a4-f947af052925" />
+<img width="1240" height="580" alt="image" src="https://github.com/user-attachments/assets/e13c5c2f-962c-4bfd-b446-c91c119a8bb1" />
+
 
 ## Soal 5 : Contest Leaderboard 
 a. Link soal: 
@@ -129,3 +150,7 @@ i. CTE-1: Submissions → MAX(score) per (hacker_id, challenge_id).
 ii. CTE-2: join ke Hackers untuk dapat name. 
 
 iii. Select final: SUM(max_) AS score, GROUP BY hacker_id, name, HAVING > 0, lalu ORDER BY.
+
+#### SCREENSHOT JAWABAN
+<img width="1240" height="580" alt="image" src="https://github.com/user-attachments/assets/1551c5e2-cb20-4197-8fa0-716032bd792a" />
+<img width="1240" height="580" alt="image" src="https://github.com/user-attachments/assets/ca1c2a3e-d715-44ef-9501-026b65c1b144" />
